@@ -28,9 +28,7 @@ jobs:
                 conan profile update settings.arch=x86_64 default
                 conan profile update settings.build_type=Release default
                 conan profile update settings.os=Linux default
-                conan remote add trompeloeil https://api.bintray.com/conan/trompeloeil/trompeloeil || true
                     
-
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
 workflows:
